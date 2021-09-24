@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <header>
+        <h1>Carchop Company</h1>
+        <h2>Contact Us</h2> 
+        <hr>
+        <br>
+        <nav>
+            <a class="main_link" href="index.html">Home</a>
+            <a class="main_link" href="products.html">Products</a>
+            <a class="main_link" href="about_us.html">About Us</a>
+            <a class="main_link" id="current_page" href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+    <br>
+    <form>
+        <label for="firstname">Firstname: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+        <label for="lastname">Lastname: </label>
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <br>
+        <label for="birthday">Birthday: </label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <label for="zip_code">Zip Code: </label>
+        <input type="number" id="zip_code" name="zip_code" min="1000" max="9999">
+        <br>
+        <label for="email">Email Address: </label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="message">Message: </label>
+        <textarea id="message" name="message">Default value</textarea>
+        <br>
+        <label for="message_type">Message Type: </label>
+        <br>
+        <input type="radio" id="suggestion" name="message_type" value="suggestion">  
+        <label for="suggestion">Suggestion</label>
+        <br>
+        <input type="radio" id="inquiry" name="message_type" value="inquiry">  
+        <label for="inquiry">Inquiry</label>
+        <br>
+        <input type="radio" id="reservation" name="message_type" value="reservation">  
+        <label for="reservation">Reservation</label>
+        <br>
+        <input type="radio" id="general_message" name="message_type" value="general_message">  
+        <label for="general_message">General Message</label>
+        <br>
+        <label for="countries_visited">Countries Visited: </label>
+        <br>
+        <input type="checkbox" name="algeria" id="algeria" value="algeria">
+        <label for="algeria">Algeria</label>
+        <br>
+        <input type="checkbox" name="bulgaria" id="bulgaria" value="bulgaria">
+        <label for="bulgaria">Bulgaria</label>
+        <br>
+        <input type="checkbox" name="cyrus" id="cyrus" value="cyrus">
+        <label for="cyrus">Cyrus</label>
+        <br>
+        <input type="checkbox" name="djibouti" id="djibouti" value="djibouti">
+        <label for="djibouti">Djibouti</label>
+        <br>
+        <input type="checkbox" name="eritrea" id="eritrea" value="eritrea">
+        <label for="eritrea">Eritrea</label>
+        <br>
+        <input type="checkbox" name="finland" id="finland" value="finland">
+        <label for="finland">Finland</label>
+        <br>
+        <input type="checkbox" name="germany" id="germany" value="germany">
+        <label for="germany">Germany</label>
+        <br>
+        <label for="country_of_origin">Country of Origin: </label>
+        <select id="country_of_origin" name="country_of_origin">
+            <option value="armenia">Armenia</option>
+            <option value="belgium">Belgium</option>
+            <option value="canada">Canada</option>
+            <option value="egypt">Egypt</option>
+            <option value="denmark">Denmark</option>
+            <option value="france">France</option>
+        </select>
+        <br>
+        <label for="favorite_colors">Favorite Colors: </label>
+        <select id="favorite_colors" name="favorite_colors" multiple>
+            <option valu="aqua">Aqua</option>
+            <option valu="beige">Beige</option>
+            <option valu="cyan">Cyan</option>
+            <option valu="daffodil">Daffodil</option>
+            <option valu="teal">Teal</option>
+        </select>
+        <br>
+        <label for="file_input">File Input: </label>
+        <input type="file" id="file_input" name="file_input">
+        <br>
+        <button type="submit" value="submit">Submit</button>
+        <br>
+        <input type="button" value="Click Me">
+        <br>
+        <input type="image" src="images/blue_dot.png">
+        <br>
+    </form>
+    <footer>2021 Carshop Company &copy;</footer>
+</body>
+</html>
